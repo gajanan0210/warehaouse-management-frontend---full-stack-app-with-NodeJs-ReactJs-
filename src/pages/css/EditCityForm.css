@@ -1,0 +1,42 @@
+.edit-city-form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .edit-city-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .edit-city-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-city-form input,
+  .edit-city-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .edit-city-form .form-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-city-form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #6c5ce7; /* Purple color for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-city-form button:hover {
+    background-color: #5a4daa; /* Darker purple on hover */
+  }
+  

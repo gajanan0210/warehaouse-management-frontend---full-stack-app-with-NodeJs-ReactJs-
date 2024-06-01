@@ -1,0 +1,63 @@
+/* city.css */
+.city-container {
+    padding: 20px;
+  }
+  
+  .city-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .city-th, .city-td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .city-th {
+    background-color: #fff2b2;
+  }
+  
+  .city-active {
+    color: green;
+  }
+  
+  .city-inactive {
+    color: red;
+  }
+  
+  .city-button {
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #6c5ce7; /* Purple color for buttons */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .city-button:hover {
+    background-color: #5a4daa; /* Darker purple on hover */
+  }
+  
+  /* Additional styles for the 'Add New' button */
+  .add-new-button {
+    background-color: #f1c40f; /* Yellow color for 'Add New' button */
+    color: #333;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
+  
+  .add-new-button:hover {
+    background-color: #dab10e; /* Darker yellow on hover */
+  }
+  
+  /* Styling for the navigation bar to match the city page */
+  .nav-item {
+    /* Your navigation item styles */
+  }
+  
+  .nav-item.active {
+    background-color: #f1c40f; /* Highlight for active nav item */
+  }
+  
